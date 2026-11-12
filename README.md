@@ -43,14 +43,14 @@ humanizer-2 对照完整版砍
 Claude Code 从 `~/.claude/skills/` 读 skill，直接把两个目录放进去：
 
 ```bash
-git clone <这个仓库的地址> /tmp/biotech-research-skills
+git clone https://github.com/wryptoW/biotech-research-skills.git /tmp/biotech-research-skills
 cp -r /tmp/biotech-research-skills/skills/* ~/.claude/skills/
 ```
 
 Windows（Git Bash）：
 
 ```bash
-git clone <这个仓库的地址> /tmp/biotech-research-skills && cp -r /tmp/biotech-research-skills/skills/* ~/.claude/skills/
+git clone https://github.com/wryptoW/biotech-research-skills.git /tmp/biotech-research-skills && cp -r /tmp/biotech-research-skills/skills/* ~/.claude/skills/
 ```
 
 装完重开一个 Claude Code 会话，skill 列表里就能看到 `digger-v2` 和 `humanizer-2`。
